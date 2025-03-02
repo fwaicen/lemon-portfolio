@@ -10,7 +10,7 @@ export const About = () => {
         {/* Avatar */}
         <Avatar
           alt="Federico Ariel Waicen"
-          src="src\assets\profile.jpeg"  // Aquí puedes colocar la URL de tu imagen
+          src="../assets/profile.jpeg"  // Aquí puedes colocar la URL de tu imagen
           sx={{ width: 200, height: 200 }}
         />
         {/* Información sobre mí */}
