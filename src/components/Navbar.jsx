@@ -1,4 +1,3 @@
-import React from "react";
 import { AppBar, Toolbar, Typography, IconButton, Button, Container } from "@mui/material";
 import { Brightness4, Brightness7 } from "@mui/icons-material";
 import { Link } from "react-scroll";

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { createTheme, ThemeProvider, CssBaseline, Card, CardContent, AppBar, Toolbar, IconButton, Grid2 } from "@mui/material";
 import { Container, Box } from "@mui/material";
 import Navbar from "./components/Navbar";

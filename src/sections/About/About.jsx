@@ -1,5 +1,5 @@
-import React from "react";
 import { Typography, Avatar, Box, useTheme } from "@mui/material";
+import profileImg from "../../assets/profile.jpeg";
 
 export const About = () => {
   const theme = useTheme();
@@ -10,7 +10,7 @@ export const About = () => {
         {/* Avatar */}
         <Avatar
           alt="Federico Ariel Waicen"
-          src="../assets/profile.jpeg"  // Aquí puedes colocar la URL de tu imagen
+          src={profileImg} // Aquí puedes colocar la URL de tu imagen
           sx={{ width: 200, height: 200 }}
         />
         {/* Información sobre mí */}

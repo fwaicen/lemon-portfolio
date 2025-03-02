@@ -1,6 +1,4 @@
-import React from "react";
 import { Grid2 as Grid, Typography } from "@mui/material";
-import { Link } from "react-scroll";
 import Slider from "react-slick";
 import { DiReact, DiNetmagazine, DiJavascript1, DiHtml5, DiCss3 } from "react-icons/di";
 import { TbBrandCSharp } from "react-icons/tb";
