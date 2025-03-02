@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #6e7f80, #a2b9b2); /* Fondo gradiente */
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Si deseas que toda la página tenga el efecto glassmorphism en el contenido */
+.main-content {
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Eliminar márgenes y padding de todos los elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
