@@ -52,35 +52,35 @@ export const Skills = () => {
       <Slider {...settings}>
         <div>
           <Grid container justifyContent="center" alignItems="center">
-            <DiReact size={100} color="#61dafb" />
+            <DiReact size={80} color="#61dafb" />
             <Typography variant="body2">React</Typography>
           </Grid>
         </div>
         <div>
           <Grid container justifyContent="center" alignItems="center">
-            <DiNetmagazine size={100} color="#5b2891" />
+            <DiNetmagazine size={80} color="#5b2891" />
           </Grid>
         </div>
         <div>
           <Grid container justifyContent="center" alignItems="center">
-            <DiJavascript1 size={100} color="#f6df17" />
+            <DiJavascript1 size={80} color="#f6df17" />
             <Typography variant="body2">Javascript</Typography>
           </Grid>
         </div>
         <div>
           <Grid container justifyContent="center" alignItems="center">
-            <TbBrandCSharp size={100} color="#502ad3" />
+            <TbBrandCSharp size={80} color="#502ad3" />
           </Grid>
         </div>
         <div>
           <Grid container justifyContent="center" alignItems="center">
-            <DiHtml5 size={100} color="#e34f26" />
+            <DiHtml5 size={80} color="#e34f26" />
             <Typography variant="body2">HTML</Typography>
           </Grid>
         </div>
         <div>
           <Grid container justifyContent="center" alignItems="center">
-            <DiCss3 size={100} color="#2965f1" />
+            <DiCss3 size={80} color="#2965f1" />
             <Typography variant="body2">CSS</Typography>
           </Grid>
         </div>

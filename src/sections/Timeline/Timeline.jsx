@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { Timeline, TimelineItem, TimelineSeparator, TimelineDot, TimelineConnector, TimelineContent, TimelineOppositeContent } from '@mui/lab';
-import { Box, Typography, Chip, keyframes } from '@mui/material';
+import { Box, Typography, Chip } from '@mui/material';
 import { experiences } from './timeConfig';
 
 export const TimelineSection = () => {
@@ -28,7 +28,7 @@ export const TimelineSection = () => {
   }, []);
 
   return (
-    <Box sx={{ overflow: 'hidden' }}>
+    <Box sx={{ overflow: 'hidden', px: { xs: 2, sm: 4 } }}>
       <Typography variant="h4" gutterBottom>
         Experiencia Profesional
       </Typography>
@@ -47,14 +47,14 @@ export const TimelineSection = () => {
               }
             }}
           >
-            <TimelineOppositeContent color="text.secondary">
+            <TimelineOppositeContent color="text.secondary" >
               {exp.date}
             </TimelineOppositeContent>
             
             <TimelineSeparator>
               <TimelineDot color={exp.dotColor} />
               {index !== experiences.length - 1 && (
-                <TimelineConnector sx={{ height: 50 }} />
+                <TimelineConnector sx={{ height: { xs: 30, sm: 50 } }} />
               )}
             </TimelineSeparator>
             

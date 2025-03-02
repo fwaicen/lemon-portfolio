@@ -50,6 +50,23 @@ const App = () => {
           },
         },
       },
+      MuiDrawer: {
+        styleOverrides: {
+          paper: {
+            background: darkMode ? 'rgba(0, 0, 0, 0.1)' : 'rgba(255, 255, 255, 0.1)', // Fondo translúcido
+            backdropFilter: 'blur(10px)', // Desenfoque
+            borderRadius: '12px', // Bordes redondeados
+            color: darkMode ? 'white' : 'black',
+          },
+        },
+      },
+      MuiBackdrop: {
+        styleOverrides: {
+          root: {
+            backgroundColor: 'rgba(0, 0, 0, 0.10)', // Ajusta la opacidad del backdrop
+          },
+        },
+      },
     },
   });
 
