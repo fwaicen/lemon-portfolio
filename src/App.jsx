@@ -32,7 +32,6 @@ const App = () => {
           root: {
             background: darkMode ? 'rgba(0, 0, 0, 0.1)' : 'rgba(255, 255, 255, 0.1)', // Fondo translúcido
             backdropFilter: 'blur(10px)', // Desenfoque
-            // boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)', // Sombra suave
             borderRadius: '12px', // Bordes redondeados
             color: darkMode ? 'white' : 'black',
           },
@@ -42,7 +41,6 @@ const App = () => {
         styleOverrides: {
           root: {
             background: darkMode ? 'rgba(0, 0, 0, 0.1)' : 'rgba(255, 255, 255, 0.1)', // Fondo translúcido
-            backdropFilter: 'blur(10px)', // Desenfoque
             boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)', // Sombra suave
             borderRadius: '12px', // Bordes redondeados
             padding: '20px',
@@ -96,7 +94,7 @@ const App = () => {
                   <Skills />
                 </Grid2>
                 <Grid2 size={12}>
-                  <TimelineSection />
+                  <TimelineSection darkMode={darkMode} />
                 </Grid2>
                 <Grid2 size={12}>
                   <Contact />
